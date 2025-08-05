@@ -16,3 +16,29 @@ Vida+Fácil é um portal web destinado à conectar profixxionais de saúde, cuid
 * HTML e SCSS (com DTL)
 
 ## 🚀 Como executar o projeto
+1. Clone o repositório:
+```bash
+git clone https://github.com/AdrianAtDjango/Vida-Mais-Facil
+```
+
+2. Vá ao repositório, crie e ative uma venv python:
+```bash
+cd Vida-Mais-Facil
+python -m venv venv
+source venv/bin/activate # Linux/MacOS
+venv\Scripts\activate # Windows
+```
+
+3. Instale as depêndencias e vá à pasta do projeto:
+```bash
+pip install django
+pip install django-ninja
+cd core
+```
+
+4. Faças as migrações e execute o servidor:
+```bash
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+```
